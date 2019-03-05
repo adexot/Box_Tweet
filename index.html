@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/favicon.ico">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -19,6 +21,7 @@
                 <nav class="Nav js-nav">
                     <div class="Nav-mobile">
                         <a href="/" class="Nav-logo">
+<img src="./boxtweet_logo_white.png" alt="">
                         </a>
                         <div class="Nav-menuBtn js-nav-toggle">MENU</div>
                     </div>
@@ -172,8 +175,8 @@
                         routes.</div>
                     <a class="Features-button Button round Popform-js">TRY ROUTING NOW</a>
                 </div>
-                <div class="Features-screen Features-screen--save">
-                    <img src="/images/new/landing/save-time-fuel-a6b59db8.png" srcset="/images/new/landing/save-time-fuel@2x-8392f155.png 2x"
+                <div class="Features-screen Features-screen--save right-overlay">
+<img src="images/map.png" srcset="/images/map.png"
                         alt="Optimize your routes in minutes!">
                 </div>
             </div>
@@ -185,9 +188,8 @@
                         capacities, vehicle types, lunch breaks, and more.</div>
                     <a class="Features-button Button round Popform-js">TRY BoxTweet FOR FREE</a>
                 </div>
-                <div class="Features-screen Features-screen--plan">
-                    <img src="/images/new/landing/plan-your-day-cc7e86f4.png" srcset="/images/new/landing/plan-your-day@2x-facc66a2.png 2x"
-                        alt="Optimize your fleet with 40% shorter routes">
+<div class="Features-screen Features-screen--plan left-overlay">
+<img src="images/plan.png" srcset="/images/plan.png" alt="Optimize your routes in minutes!">
                 </div>
             </div>
             <div class="Features-group Features-group--map">
@@ -199,9 +201,8 @@
                             they need to ensure an exceptional delivery experience. </div>
                         <a class="Features-button Button round Popform-js">TRY DISPATCHING NOW</a>
                     </div>
-                    <div class="Features-screen Features-screen--dispatch">
-                        <img src="/images/new/landing/dispatch-drivers-3210257c.png" srcset="/images/new/landing/dispatch-drivers@2x-35b54aa4.png 2x"
-                            alt="Manual drag and drop reoptimization">
+<div class="Features-screen Features-screen--dispatch right-overlay">
+<img src="images/dispatch.png" srcset="/images/dispatch.png" alt="Optimize your routes in minutes!">
                     </div>
                 </div>
                 <div class="Features-row Features-row--inverted">
@@ -212,9 +213,8 @@
                             delivery and signature capture.</div>
                         <a class="Features-button Button round Popform-js">TRY LIVE TRACKING</a>
                     </div>
-                    <div class="Features-screen Features-screen--control">
-                        <img src="/images/new/landing/take-control-ab56cb19.png" srcset="/images/new/landing/take-control@2x-f9f9d19f.png 2x"
-                            alt="Mobile app to dispatch routes to your drivers">
+<div class="Features-screen Features-screen--control left-overlay">
+<img src="images/control.png" srcset="/images/control.png" alt="Optimize your routes in minutes!">
                     </div>
                 </div>
             </div>
@@ -601,6 +601,27 @@
     </div>
     <script src="js/new.vendor-ee73369d.js"> </script>
     <script src="/js/new-1332fea1.js"> </script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+        (function () {
+            const t = {
+                id: 321557204,
+                width: 640,
+                loop: !1
+            };
+            const e = document.querySelector(".Video-modal");
+            const n = new Vimeo.Player("ytplayer", t);
+            document.querySelector(".js-play-video").addEventListener("click", function () {
+                    return e.classList.toggle("show-modal"),
+                        n.play(),
+                        n.setVolume(30)
+                }),
+                e.addEventListener("click", function () {
+                    return e.classList.toggle("show-modal"),
+                        n.pause()
+                })
+        })();
+    </script>
 </body>
 
 </html>

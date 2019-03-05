@@ -1366,6 +1366,7 @@ strong {
         display: block;
         bottom: 0;
         position: absolute;
+        z-index: 99
     }
 
     .Header-cta.CTA>.CTA-wrapper {
