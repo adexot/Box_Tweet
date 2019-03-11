@@ -285,7 +285,7 @@ legend {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: sofia-pro,"Helvetica Neue",Arial,sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -502,8 +502,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: Lato, Open Sans, Lucida Grande, sans-serif
+h6,
+p {
+    font-family: sofia-pro,"Helvetica Neue",Arial,sans-serif;
 }
 
 button,
@@ -1201,7 +1202,8 @@ strong {
     padding-top: 8.5rem;
     background-color: #485a5f;
     background-image: linear-gradient(to bottom, #485a5f 0, #2a3d54 40%);
-    overflow: hidden
+    overflow: hidden;
+    height: 100vh;
 }
 
 @media (min-width: 760px) {
@@ -2095,7 +2097,8 @@ strong {
 }
 
 .Button--video {
-    cursor: pointer
+    cursor: pointer;
+    color: #0075f9;
 }
 
 .Button--video:before {
@@ -2105,7 +2108,6 @@ strong {
     display: inline-block;
     margin: 0 1rem 0 0;
     background: #0075f9;
-    color: #fff;
     border-radius: 3rem;
     width: 2rem;
     height: 2rem;
@@ -5185,7 +5187,6 @@ strong {
 
     .Video-text .Button--video {
         border: 0;
-        color: #fff
     }
 
     .Video-text .Button--video:before {

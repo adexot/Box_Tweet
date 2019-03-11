@@ -1,0 +1,88 @@
+/* This is the stylesheet foer all custom styling */
+
+/* #region swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px 50px 60px;
+    background-image: linear-gradient(-180deg, #fcfdff 3%, #edeef0 100%);
+}
+
+.swiper-header {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 270px;
+    box-shadow: 0 4px 10px 0 rgba(29, 45, 78, .15);
+    padding: 20px;
+}
+
+.swiper-slide p {
+    color: #737373;
+    font-size: 14px;
+}
+
+/* #endregion swiper */
+
+/* #region footer */
+.footer {
+    background-color: #013463;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start:  0;
+}
+
+.footer li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer li a {
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+}
+
+.footer-bottom {
+    padding: 20px 0 30px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-brand {
+    margin: 10px 0;
+}
+/* #endregion footer */
