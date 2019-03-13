@@ -3146,7 +3146,7 @@ b, strong {
     }
     .Nav-group>li>a:not(.Nav-logo):not(.Nav--login) {
         display: inline-block;
-        padding: 0 1.5rem;
+        padding: 0 30px;
         text-transform: none;
         color: #2b3639;
         border: none

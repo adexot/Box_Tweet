@@ -134,3 +134,26 @@
     font-size: 4rem;
     margin: 0;
 }
+
+@media (max-width: 500px){
+    .globe {
+        height: auto;
+    }
+
+    .globe-content {
+        width: 100%;
+    }
+
+    .globe-content h2 {
+        font-size: 2rem;
+    }
+
+    .Header-cta.CTA>.CTA-wrapper .CTA-title {
+        font-size: 3rem;
+    }
+}
+
+.Nav-mobile .Nav-logo img {
+    height: 40px;
+    max-width: auto;
+}
