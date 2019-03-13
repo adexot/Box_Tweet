@@ -157,3 +157,11 @@
     height: 40px;
     max-width: auto;
 }
+
+.pricing-header {
+    padding: 100px 0 50px;
+}
+
+.hide {
+    visibility: hidden;
+}

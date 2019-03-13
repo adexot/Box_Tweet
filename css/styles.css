@@ -1189,7 +1189,7 @@ b, strong {
 
 @media (min-width: 1020px) and (-webkit-min-device-pixel-ratio:2), (min-width:1020px) and (min-resolution:192dpi) {
     .Header-devices {
-        background-image: url(../images/header-81861620.png)
+        background-image: url(../images/header_image.png)
     }
 }
 
@@ -4946,4 +4946,334 @@ b, strong {
     left: 0;
     width: 100%;
     height: 100%
+}
+
+.Pricing-plans {
+    transition: transform 350ms ease-out;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 32rem
+}
+
+@media (min-width: 760px) {
+
+    .Pricing-toggle--annual,
+    .Pricing-toggle--monthly {
+        font-size: 1.4rem
+    }
+
+    .Pricing-plans {
+        max-width: 100%;
+        margin: 8rem 0 0;
+        white-space: nowrap
+    }
+}
+
+@media (min-width: 1280px) {
+    .Pricing-plans {
+        text-align: center;
+        margin: 8rem auto
+    }
+}
+
+.Pricing-plans>li {
+    background-color: #fff;
+    border-top: 1px solid #e0e7e9;
+    border-left: 1px solid #e0e7e9;
+    border-right: 1px solid #e0e7e9;
+    margin-bottom: 5rem;
+    vertical-align: top;
+    text-align: center
+}
+
+.Pricing-plans>li .strike-through {
+    display: inline;
+    text-decoration: line-through;
+    margin-right: .3rem
+}
+
+.Pricing-plans>li .highlight {
+    height: 1.2rem;
+    width: 11rem;
+    background: #dbefec;
+    top: 2rem;
+    display: inline;
+    position: absolute;
+    border-radius: 10px
+}
+
+.Pricing-plans>li .highlight-text {
+    z-index: 2;
+    display: inline;
+    position: relative;
+    margin-right: .3rem
+}
+
+.Pricing-plans>li .highlight-overflow {
+    display: inline
+}
+
+@media screen and (max-width: 480px) {
+    .Pricing-plans>li .highlight-overflow {
+        display: block
+    }
+}
+
+@media (min-width: 760px) {
+    .Pricing-plans>li {
+        width: 35rem;
+        display: inline-block;
+        margin: 0 1.5rem
+    }
+
+    .Pricing-plans-name p {
+        font-size: 1.8rem
+    }
+}
+
+.Pricing-plans-info {
+    padding: 1rem 2rem
+}
+
+.Pricing-plans-info.essential {
+    height: 59rem !important;
+    border-bottom: 1px solid #e0e7e9 !important
+}
+
+.Pricing-plans-item {
+    position: relative
+}
+
+.Pricing-plans .add-ons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e7e9
+}
+
+.Pricing-plans .add-ons .add-on-heading {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.8rem
+}
+
+.Pricing-plans .add-ons .add-on-heading img {
+    margin-right: 2rem
+}
+
+.Pricing-plans .add-ons .add-on-heading .add-on-title {
+    color: #469cfc
+}
+
+.Pricing-plans .add-ons .add-on-item {
+    margin-left: -6rem;
+    margin-top: 1rem
+}
+
+.Pricing-plans-name--premium .new-feature li,
+.Pricing-plans-name--recommended .new-feature li {
+    margin-left: 5.5rem
+}
+
+.Pricing-plans-name {
+    min-height: 24rem;
+    white-space: normal;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #e0e7e9;
+    height: 36rem
+}
+
+.Pricing-plans-name h4 {
+    letter-spacing: 3px
+}
+
+.Pricing-plans-name--inner {
+    min-height: 18rem;
+    display: block;
+    margin-bottom: -3rem
+}
+
+.Pricing-plans-name--inner p {
+    line-height: 160%
+}
+
+.Pricing-plans-name--inner .professional {
+    margin-top: -2rem;
+    margin-bottom: -3.5rem
+}
+
+.Pricing-plans-name--inner a.gtm-enterprise-plan {
+    margin-top: 5rem;
+    max-width: 25rem
+}
+
+.Pricing-plans-name--recommended:before {
+    content: 'RECOMMENDED';
+    background-color: #005ec8;
+    color: #fff;
+    text-align: center;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
+    top: -1.75rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 77, 253, .6)
+}
+
+.Pricing-plans-name--recommended .Pricing-plans-name {
+    margin-top: -3.5rem;
+    background-color: #469cfc;
+    color: #fff
+}
+
+.Pricing-plans-name--recommended .Pricing-plans-name .Pricing-plans-join {
+    color: #cbe4ff
+}
+
+.Pricing-plans-name--recommended .Pricing-plans-name .Pricing-plans-currency,
+.Pricing-plans-name--recommended .Pricing-plans-name .Pricing-plans-rate {
+    color: #fff
+}
+
+.Pricing-plans-name--recommended .Pricing-plans-name .Button {
+    border: 1px solid #a1ceff
+}
+
+.Pricing-plans-name--recommended .new-feature {
+    background-color: #ebf4ff;
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+.Pricing-plans-name--premium .Pricing-plans-name {
+    background-color: #dbefec
+}
+
+.Pricing-plans-name--premium .new-feature {
+    background-color: #dbefec;
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+.Pricing-plans-join {
+    text-align: center;
+    color: #91a1a7
+}
+
+.Pricing-plans .Button {
+    margin: 0 auto;
+    display: block;
+    max-width: 27rem
+}
+
+.Pricing-plans .Button--secondary {
+    max-width: 17rem
+}
+
+.Pricing-plans-currency {
+    display: inline-block;
+    color: #2b3639;
+    width: 10rem;
+    white-space: nowrap;
+    padding-left: 3.75rem;
+    margin: 1rem .5rem -.8rem -3rem
+}
+
+.Pricing-plans-currency div {
+    display: inline-block;
+    font-size: 3.5rem;
+    margin: .2rem 0;
+    transition: opacity 350ms, transform 350ms
+}
+
+.Pricing-plans-currency div:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0
+}
+
+.Pricing-plans-currency.show-annual div:nth-child(1) {
+    transform: translateX(-80%) scale(.5);
+    text-decoration: line-through
+}
+
+.Pricing-plans-currency.show-annual div:nth-child(2) {
+    opacity: 1
+}
+
+.Pricing-plans-rate {
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-style: italic;
+    color: #2b3639
+}
+
+.Pricing-plans-info {
+    min-height: 30rem;
+}
+
+.Pricing-plans-info ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 22rem;
+    padding-left: 10px
+}
+
+@media screen and (max-width: 480px) {
+    .Pricing-plans-info ul {
+        margin-left: 1.5rem
+    }
+}
+
+@media (min-width: 760px) {
+    .Pricing-plans-info ul {
+        max-width: none;
+        padding-left: 25px
+    }
+}
+
+@media (min-width: 1280px) {
+    .Pricing-plans-info ul {
+        padding-left: 25px
+    }
+}
+
+.Pricing-plans-info ul li {
+    position: relative;
+    line-height: 4.4rem;
+    white-space: nowrap;
+    margin-left: 1rem
+}
+
+.Pricing-plans-info ul li:before {
+    content: '';
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjNDY5Y2ZjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi43IDE5Yy40LjcgMS4zLjcgMS44LjIuNi0uNC42LTEuMiAwLTEuN2wtMi42LTNjLS42LS41LTEuNC0uNi0yIDAtLjUuMy0uNiAxIDAgMS43bDIuNyAzIi8+PHBhdGggZD0iTTIxIDEzYy41LS42LjUtMS40IDAtMi0uNi0uNC0xLjQtLjQtMiAwbC02LjQgNi4zYy0uNS41LS41IDEuMyAwIDEuOC41LjYgMS40LjYgMiAwbDYuNC02Ii8+PC9nPjwvc3ZnPg==) center center no-repeat #fff;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 5px;
+    left: -45px;
+    border: 1px solid #cbe4ff;
+    border-radius: 50%
+}
+
+.Pricing-plans-info ul li.professional:before {
+    border-color: #469cfc
+}
+
+.Pricing-plans-info ul li.premium:before {
+    border-color: #09b89d;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjMDlCODlEIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi43IDE5Yy40LjcgMS4zLjcgMS44LjIuNi0uNC42LTEuMiAwLTEuN2wtMi42LTNjLS42LS41LTEuNC0uNi0yIDAtLjUuMy0uNiAxIDAgMS43bDIuNyAzIi8+PHBhdGggZD0iTTIxIDEzYy41LS42LjUtMS40IDAtMi0uNi0uNC0xLjQtLjQtMiAwbC02LjQgNi4zYy0uNS41LS41IDEuMyAwIDEuOC41LjYgMS40LjYgMiAwbDYuNC02Ii8+PC9nPjwvc3ZnPg==)
 }
