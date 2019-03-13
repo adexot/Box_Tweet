@@ -151,6 +151,16 @@
     .Header-cta.CTA>.CTA-wrapper .CTA-title {
         font-size: 3rem;
     }
+
+    .right-overlay::before,
+    .left-overlay::before {
+        display: none;
+    }
+
+    .cta-button {
+        margin: 0;
+    }
+
 }
 
 .Nav-mobile .Nav-logo img {
