@@ -52,7 +52,7 @@
 .footer-top {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 14px;
 }
 
@@ -61,16 +61,16 @@
 }
 
 .footer ul {
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
-        padding-inline-start:  0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
 }
 
-.footer li{
+.footer li {
     list-style: none;
     display: inline-block;
 }
@@ -89,6 +89,7 @@
 .footer-brand {
     margin: 10px 0;
 }
+
 /* #endregion footer */
 
 .cta-button {
@@ -114,7 +115,7 @@
     padding: 50px 0;
 }
 
-.map img{
+.map img {
     width: 100%;
     max-height: 400px;
     display: block;
@@ -130,12 +131,12 @@
     text-align: center;
 }
 
-.globe-content h2{
+.globe-content h2 {
     font-size: 4rem;
     margin: 0;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .globe {
         height: auto;
     }
@@ -174,4 +175,70 @@
 
 .hide {
     visibility: hidden;
+}
+
+/* Features  */
+.feature-section {
+    background-color: rgba(243, 246, 250, 0.8);
+    padding: 50px 0;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.feature-phone-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature-phone-container>div {
+    width: 50%;
+    padding: 20px;
+}
+
+.feature-phone-image {
+    max-width: auto;
+    height: 500px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-phone-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 3rem;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.desktop-image {
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
 }
