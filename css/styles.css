@@ -535,7 +535,9 @@ h6 {
 
 @media (min-width: 1020px) {
     .Heading-title {
-        font-size: 3rem
+        font-size: 5rem;
+        line-height: 1;
+        padding: 0;
     }
 }
 
@@ -2076,7 +2078,7 @@ strong {
 
 .Button--tertiary {
     color: #fff;
-    background: #385473;
+    background: #005ec9;
     cursor: pointer;
     font-size: 1.4rem
 }
@@ -3277,7 +3279,7 @@ strong {
     .Nav-items {
         background-color: rgba(255, 255, 255, .9);
         border: 1px solid #e0e7e9;
-        padding: 1rem 4rem
+        padding: 0.5rem 4rem
     }
 }
 

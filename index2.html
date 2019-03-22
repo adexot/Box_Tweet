@@ -18,21 +18,21 @@
 
 <body>
     <div id="main">
-        <div class="Nav--index bg-white">
+        <div class="Nav--index">
             <div class="Container Container--full Container--nav">
                 <nav class="Nav js-nav">
                     <div class="Nav-mobile">
                         <a href="/" class="Nav-logo">
-                            <img src="./boxtweet-logo.png" alt="">
+                            <img src="./boxtweet_logo.png" alt="">
                         </a>
                         <div class="Nav-menuBtn js-nav-toggle">MENU</div>
                     </div>
-                    <div class="Nav-items js-nav-items bg-white">
+                    <div class="Nav-items js-nav-items">
                         <div class="Nav-menuBtn Nav-menuClose js-nav-close">Close</div>
                         <ul class="Nav-group">
                             <li>
                                 <a href="/" class="brand-logo">
-                                    <img src="./boxtweet-logo.png" alt="">
+                                    <img src="./boxtweet_logo.png" alt="">
                                 </a>
                             </li>
                             <li>
@@ -57,16 +57,20 @@
                 </nav>
             </div>
         </div>
-        <header class="top-section">
-            <div class="text-center text-white">
-                <h1 class="CTA-title Heading-title">Digitize Your Logistics</h1>
-                <p class="subtext">
-                    Track your deliveries with Boxtweet
-                </p>
-                <button class="cta-button js-play-video">
-                    Watch How BoxTweet Works
-                </button>
-                <img class="large-image" src="images/top-2.png" alt="">
+        <header class="Header">
+            <div class="Header-devices"></div>
+            <div class="CTA Header-cta">
+                <div class="CTA-wrapper">
+                    <div class="CTA-container">
+                        <h1 class="CTA-title Heading-title">Digitize Your Logistics</h1>
+                        <p class="subtext">
+                            Track your deliveries with Boxtweet
+                        </p>
+                        <button class="cta-button js-play-video">
+                            Watch How BoxTweet Works
+                        </button>
+                    </div>
+                </div>
             </div>
         </header>
         <div class="Video">
@@ -147,29 +151,66 @@
             <div class="swiper-pagination"></div>
         </div>
 
-        <div class="why-us-section text-center">
-            <h2 class="swiper-header">Why BoxTweet?</h2>
-            <p>
-                Managing a dispatch or fieldworker can be a daunting task in today’s world due to massive paper work,
-                inability to track packages on the go, inefficient personnel, poor addressing infrastructure, manual
-                monitoring of expenses etc. At Boxtweet, we understand these problems and have built a solution that is
-                affordable, reliable and adapts seamlessly to different market challenges.
-            </p>
-
-            <p>
-                Boxtweet is a smart software solution tailored that enables effective logistics management between
-                dispatchers and field workers by providing real-time updates and insights to effectively optimize
-                process and operational performance. Our solution provides businesses with a 360 view of their field
-                operations.
-            </p>
+        <div class="Features">
+            <h2 class="Features-title Heading-title">BoxTweet Makes Your Job Easy.</h2>
+            <h3 class="Features-subtitle Heading-subtitle">For any business that makes pick ups, deliveries, or
+                multiple stops a day</h3>
+            <div class="Features-row">
+                <div class="Features-text Features-text--left">
+                    <div class="Features-textTitle">Save Time &amp;Fuel</div>
+                    <div class="Features-textDescription">Our Routing Engine rescues you from hours of manual planning.
+                        We minimize windshield time and maximize the capacity of your fleet with up to 40% shorter
+                        routes.</div>
+                    <a class="Features-button Button round Popform-js">TRY ROUTING NOW</a>
+                </div>
+                <div class="Features-screen Features-screen right-overlay">
+                    <img src="images/feature_one.png" srcset="/images/feature_one.png"
+                        alt="Optimize your routes in minutes!">
+                </div>
+            </div>
+            <div class="Features-row Features-row--inverted">
+                <div class="Features-text">
+                    <div class="Features-textTitle">Plan Your Day with Clarity</div>
+                    <div class="Features-textDescription">View optimized routes on a clickable, interactive map that’s
+                        fun and easy to use. Include real-life factors like time windows, stop durations, vehicle
+                        capacities, vehicle types, lunch breaks, and more.</div>
+                    <a class="Features-button Button round Popform-js">TRY BoxTweet FOR FREE</a>
+                </div>
+                <div class="Features-screen Features-screen--plan left-overlay">
+                    <img src="images/feature_two.png" srcset="/images/feature_two.png"
+                        alt="Optimize your routes in minutes!">
+                </div>
+            </div>
+            <div class="Features-group Features-group--map">
+                <div class="Features-row">
+                    <div class="Features-text">
+                        <div class="Features-textTitle">Dispatch to Drivers</div>
+                        <div class="Features-textDescription">Send routes to drivers with a single click. BoxTweet’s
+                            mobile app is simple and intuitive. Drivers stay on track, and have all the information
+                            they need to ensure an exceptional delivery experience. </div>
+                        <a class="Features-button Button round Popform-js">TRY DISPATCHING NOW</a>
+                    </div>
+                    <div class="Features-screen Features-screen--dispatch right-overlay">
+                        <img src="images/feature_four.png" srcset="/images/feature_four.png"
+                            alt="Optimize your routes in minutes!">
+                    </div>
+                </div>
+                <div class="Features-row Features-row--inverted">
+                    <div class="Features-text">
+                        <div class="Features-textTitle">Take Control of Your Business</div>
+                        <div class="Features-textDescription">Track your drivers’ progress while they’re on the road.
+                            Make quick adjustments and re-route instantly. Everyone stays accountable with proof of
+                            delivery and signature capture.</div>
+                        <a class="Features-button Button round Popform-js">TRY LIVE TRACKING</a>
+                    </div>
+                    <div class="Features-screen Features-screen--control left-overlay">
+                        <img src="images/feature_three.png" srcset="/images/feature_three.png"
+                            alt="Optimize your routes in minutes!">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="feature-section text-center">
-            <h3 class="">Start managing your deliveries with Boxtweet for as low as $0.1/Delivery</h3>
-            <a class="cta-button" href="http://app.boxtweet.com">
-                Continue here
-            </a>
-        </div>
         <div class="globe">
             <div class="map">
                 <img src="/images/svg/world_map.svg" alt="globe-svg">
@@ -245,9 +286,9 @@
                     el: '.swiper-pagination',
                     clickable: true,
                 },
-                autoplay: {
-                    delay: 3000,
-                },
+                // autoplay: {
+                //     delay: 3000,
+                // },
                 breakpoints: {
                     480: {
                         slidesPerView: 1,

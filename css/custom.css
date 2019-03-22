@@ -4,14 +4,17 @@
 .swiper-container {
     width: 100%;
     height: 100%;
-    padding: 50px 50px 60px;
-    background-image: linear-gradient(-360deg, #fcfdff 3%, #edeef0 100%);
+    padding: 20px 50px 60px;
+    /* background-image: linear-gradient(-360deg, #fcfdff 3%, #edeef0 100%); */
+    background-color: rgba(243, 246, 250, 1);
+    position: relative;
+    z-index: 5;
 }
 
 .swiper-header {
     text-align: center;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 3rem;
     margin-top: 40px;
 }
 
@@ -95,10 +98,10 @@
 .cta-button {
     text-align: center;
     border: 0;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 50px;
     color: #fff;
-    margin: 50px auto;
+    margin: 20px auto 0;
     display: inline;
     cursor: pointer;
     background-color: #005ec9;
@@ -134,34 +137,6 @@
 .globe-content h2 {
     font-size: 4rem;
     margin: 0;
-}
-
-@media (max-width: 500px) {
-    .globe {
-        height: auto;
-    }
-
-    .globe-content {
-        width: 100%;
-    }
-
-    .globe-content h2 {
-        font-size: 2rem;
-    }
-
-    .Header-cta.CTA>.CTA-wrapper .CTA-title {
-        font-size: 3rem;
-    }
-
-    .right-overlay::before,
-    .left-overlay::before {
-        display: none;
-    }
-
-    .cta-button {
-        margin: 0;
-    }
-
 }
 
 .Nav-mobile .Nav-logo img {
@@ -228,6 +203,11 @@
     text-align: center;
 }
 
+.text-white {
+    color: white;
+
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -241,4 +221,92 @@
 .desktop-image {
     box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
+}
+
+.top-section {
+    height: 110vh;
+    background-color: #007bff;
+    box-sizing: border-box;
+    padding: 100px 0;
+    position: relative;
+}
+
+.top-section::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background: url(../images/hero-trucks.png);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.large-image {
+    width: 1200px;
+    height: 650px;
+    z-index: 2;
+    position: relative;
+}
+
+.feature-section {
+    padding: 50px 0 100px;
+}
+
+.feature-section h3 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0 0 50px;
+}
+
+.why-us-section {
+    padding: 20px 0 50px;
+    position: relative;
+}
+
+.why-us-section p {
+    max-width: 1000px;
+    margin: 0 auto 30px;
+}
+
+@media (max-width: 500px) {
+    .globe {
+        height: auto;
+    }
+
+    .globe-content {
+        width: 100%;
+    }
+
+    .globe-content h2 {
+        font-size: 2rem;
+    }
+
+    .Header-cta.CTA>.CTA-wrapper .CTA-title {
+        font-size: 3rem;
+    }
+
+    .right-overlay::before,
+    .left-overlay::before {
+        display: none;
+    }
+
+    .cta-button {
+        margin: 0;
+    }
+
+    .large-image {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .top-section {
+        height: 100vh;
+    }
+
 }
