@@ -279,27 +279,47 @@
     .globe {
         height: auto;
     }
+
     .globe-content {
         width: 100%;
     }
+
     .globe-content h2 {
         font-size: 2rem;
     }
+
     .Header-cta.CTA>.CTA-wrapper .CTA-title {
         font-size: 3rem;
     }
-    .right-overlay::before, .left-overlay::before {
+
+    .right-overlay::before,
+    .left-overlay::before {
         display: none;
     }
+
     .cta-button {
         margin: 0;
     }
+
     .large-image {
         width: 100%;
         height: auto;
         margin-top: 50px;
     }
+
     .top-section {
         height: 80vh;
     }
+}
+
+.nav-active {
+    font-weight: 500;
+    background-color: #005ec9;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.nav-active a {
+    color: #fff !important;
 }

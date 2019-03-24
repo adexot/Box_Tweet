@@ -3889,23 +3889,6 @@ strong {
     line-height: 160%
 }
 
-.Pricing-plans-name--recommended:before {
-    content: 'RECOMMENDED';
-    background-color: #ffbd00;
-    color: #2b3639;
-    text-align: center;
-    height: 3.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0 2rem;
-    line-height: 3.5rem;
-    letter-spacing: 2px;
-    display: inline-block;
-    border-radius: 3px;
-    position: relative;
-    top: -1.75rem;
-    box-shadow: 0 5px 10px 0 rgba(0, 77, 253, .6)
-}
 
 .Pricing-plans-name--recommended .Pricing-plans-name {
     margin-top: -3.5rem;
@@ -5394,24 +5377,6 @@ strong {
 .Pricing-plans-name--inner a.gtm-enterprise-plan {
     margin-top: 5rem;
     max-width: 25rem
-}
-
-.Pricing-plans-name--recommended:before {
-    content: 'RECOMMENDED';
-    background-color: #005ec8;
-    color: #fff;
-    text-align: center;
-    height: 3.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0 2rem;
-    line-height: 3.5rem;
-    letter-spacing: 2px;
-    display: inline-block;
-    border-radius: 3px;
-    position: relative;
-    top: -1.75rem;
-    box-shadow: 0 5px 10px 0 rgba(0, 77, 253, .6)
 }
 
 .Pricing-plans-name--recommended .Pricing-plans-name {
