@@ -1,0 +1,47 @@
+@media (max-width: 500px) {
+    .globe {
+        height: auto;
+    }
+
+    .globe-content {
+        width: 100%;
+    }
+
+    .globe-content h2 {
+        font-size: 2rem;
+    }
+
+    .Header-cta.CTA>.CTA-wrapper .CTA-title {
+        font-size: 3rem;
+    }
+
+    .right-overlay::before,
+    .left-overlay::before {
+        display: none;
+    }
+
+    .cta-button {
+        margin: 0;
+    }
+
+    .large-image {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .top-section {
+        height: 80vh;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+
+    }
+
+    .pricing-container>div {
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+    }
+}
